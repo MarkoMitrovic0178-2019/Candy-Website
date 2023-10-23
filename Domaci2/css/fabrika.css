@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.heder{
+    overflow: auto;
+    /*background-color: #ffccee;*/
+    background-color: #ee85e0;
+    
+}
+.heder a {
+    float: left;
+    color:#000000;
+    text-align: left;
+    padding: 11px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.heder a:hover {
+    background-color: #ff4dff;
+    color: white;
+}
+.heder a.active {
+    background-color: #ff4dff;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+   
+}
+
+.container {
+    width: 100%;
+    min-height: 50vh;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+
+
+
+
